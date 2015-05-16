@@ -1,0 +1,7 @@
+#!/bin/sh
+
+name="jab-mod-particles"
+version="0.0.1"
+afterBS=("_particles.scss")
+postInstall="Install finished. To use, put {% include modules/jab-mod-particles/particles.html %} in your code.\n
+\n
